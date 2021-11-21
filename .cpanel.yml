@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/leandnod/public_html/
-    - /bin/cp index.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/leandnod/repositories/potifolio-v2.0/
+      - /bin/cp -R images $DEPLOYPATH
